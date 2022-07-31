@@ -1,4 +1,5 @@
 # Intro-to-AI
+The webiste is available [here](https://salimhachemaoui.github.io/Intro-to-AI/)
 ## Web Programming with Python and JavaScript
 
 This is a website that gives an Introduction to Artificial Intelligence, specifically related to Search Algorithms, Neural Networks and Reinforcement Learning.
@@ -21,3 +22,5 @@ files inside networks folder
 - rl.html - Details on Reinforcement Learning
 
 The stylesheets are contained inside the styles folder and all the images are inside the assets folder
+
+
