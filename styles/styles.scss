@@ -1,0 +1,167 @@
+$fcolor: white;
+$font: Georgia, 'Times New Roman', Times, serif;
+$fsize: larger;
+
+body {
+    color: $fcolor;
+    background-image: url("../assets/back.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: $fcolor;
+    margin-top: 20px;
+}
+
+h2, h3, h4 {
+    color: $fcolor;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: darkslategrey;
+}
+
+.dropdown-menu {
+    background-color: #323a40;
+}
+
+a, .dropdown-item, #navbarDropdownMenuLink{
+    color: $fcolor;
+}
+
+.center {
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center + p {
+    margin-left: 12%;
+    margin-right: 12%;
+    font-style: oblique;
+    font-size: $fsize;
+}
+
+p{
+    color: $fcolor;
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-family: $font;
+    font-size: $fsize;
+}
+
+.listobject {
+    color: $fcolor;
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-family: $font;
+    font-size: $fsize;
+}
+
+.listobject{
+    li {
+    padding-top: 5px;
+    }
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #323a40;
+    color: $fcolor;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.footer {
+    padding-left: 25%;
+    padding-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.dropdown{
+    .dropdown-menu {
+    top: 200%;
+    transition: 0.3s all ease-in-out;
+    }
+}
+
+.dropdown:hover{
+    .dropdown-menu {
+        display: block;
+        top: 100%;
+    }
+}
+  
+.dropdown{
+    .dropdown-toggle:active {
+      pointer-events: none;
+    }
+}
+  
+.card {
+    color: black;
+    background-color: #f8f8f8;
+    font-size: x-large;
+    margin-top: 30px;
+}
+
+#code {
+    margin: -10px; 
+    margin-left: -150px;
+}
+
+.function {
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+table{
+    color: $fcolor;
+    margin-top: 25px;
+    margin-right: 30%;
+    margin-left: 30%;
+    font-family: $font;
+    width: auto
+}
+
+@media screen and ( max-width: 900px ) {
+    img.center { width: 320px; }
+    img.center { height: auto; }
+    .card {
+        color: black;
+        background-color: #f8f8f8;
+        font-size: large;
+        margin-top: 30px;
+    }
+    table {
+        font-size: medium;
+    }
+}
+
+@media screen and ( min-width: 901px ) {
+    img.center { width: width; }
+    card {
+        color: black;
+        background-color: #f8f8f8;
+        font-size: x-large;
+        margin-top: 30px;
+    }
+    table {
+        font-size: x-large;
+    }
+}
+img.center { height: height; }
